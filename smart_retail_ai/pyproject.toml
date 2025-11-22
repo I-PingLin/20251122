@@ -1,0 +1,20 @@
+[project]
+name = "smart-retail-ai"
+version = "0.1.0"
+description = "AI Engineer showcase with forecasting, recommendation, and NLP microservices"
+authors = [
+    { name = "Cascade", email = "example@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
